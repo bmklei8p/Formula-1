@@ -2,7 +2,7 @@
 
 const Main = () => {
     return (
-        <div>
+        <div className="trying">
             <p>
                 "hello from Main?"
             </p>
