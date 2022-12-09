@@ -23,4 +23,25 @@ code {
 
 .nav-link {
   color: white;
+  font-size: x-large;
+}
+.nav-link:hover {
+  color: white;
+}
+.nav-link:visited {
+  color: white;
+}
+
+.banner {
+  background-color: black;
+  color: white;
+  padding-bottom: 0;
+}
+
+.title {
+  color: white;
+  font-family: fantasy;
+  font-style: italic;
+  font-size: 110px;
+  font-size-adjust: .5;
 }

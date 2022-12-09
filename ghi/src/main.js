@@ -1,13 +1,39 @@
+import {Container, Row} from "react-bootstrap";
+import Welcome from "./Welcome";
+import CallToAction from "./CallToAction";
 
-
-const Main = () => {
+function Main() {
     return (
-        <div className="trying">
-            <p>
-                "hello from Main?"
-            </p>
+        <div>
+            <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
+            <Container>
+                <Row>
+                    <Welcome />
+                </Row>
+            </Container>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <Container>
+                <Row>
+                    <CallToAction />
+                </Row>
+            </Container>
         </div>
-    )
+    );
 }
 
 export default Main
