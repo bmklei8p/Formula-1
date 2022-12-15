@@ -2,8 +2,8 @@ import React from 'react';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import './App.css';
 import TracksList from './features/Tracks/TracksList';
-import Main from "./Main"
-import FormulaNav from "./Nav"
+import Main from "./components/Main"
+import FormulaNav from "./components/Nav"
 // import Banner from './Banner';
 
 
@@ -13,7 +13,7 @@ function App() {
       <BrowserRouter>
         {/* <Banner /> */}
         <FormulaNav />
-        <div className="container">
+        <div>
           <Routes>
             <Route path="/" element={<Main />} />
             <Route path="/Tracks" element={<TracksList />} />
