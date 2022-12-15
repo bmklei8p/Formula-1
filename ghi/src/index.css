@@ -19,6 +19,22 @@ code {
   height: 100vh;
 }
 
+.videoContent{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: -500;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  font-family: fantasy;
+  font-style: italic;
+  font-size-adjust: .5;
+}
+
 video {
   width: 100%;
   height: 100%;
@@ -38,21 +54,16 @@ video {
   color: white;
 }
 
-.banner {
-  background-color: black;
-  color: white;
-  padding-bottom: 0;
-}
-
-.title {
-  color: white;
-  font-family: fantasy;
-  font-style: italic;
-  font-size: 110px;
-  font-size-adjust: .5;
-}
-
 /* .all-track-map{
   height: 100vh;
   width: 100vh;
 } */
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,0.5);
+}

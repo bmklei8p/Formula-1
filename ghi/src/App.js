@@ -4,14 +4,12 @@ import './App.css';
 import TracksList from './features/Tracks/TracksList';
 import Main from "./components/Main"
 import FormulaNav from "./components/Nav"
-// import Banner from './Banner';
 
 
 function App() {
   return (
     <div className="App">
       <BrowserRouter>
-        {/* <Banner /> */}
         <FormulaNav />
         <div>
           <Routes>
