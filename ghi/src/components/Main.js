@@ -8,8 +8,8 @@ function Main() {
         <div className="main">
             <div className="overlay">
                 <video src={mercedesDoubleStack} autoPlay muted />
+                <Welcome />
             </div>
-            <Welcome />
         </div>
     );
 }
