@@ -1,7 +1,7 @@
 import React from 'react';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import './App.css';
-import TracksList from './features/Tracks/TracksList';
+import TracksList from './components/Tracks/TracksList';
 import Main from "./components/Main"
 import FormulaNav from "./components/Nav"
 
