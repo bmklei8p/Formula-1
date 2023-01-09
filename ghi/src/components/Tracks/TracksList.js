@@ -1,27 +1,25 @@
 // import { useState, useEffect } from 'react'
 import { GoogleMap, useJsApiLoader } from '@react-google-maps/api';
-
-const containerStyle = {
-    width: '400px',
-    height: '400px'
-};
-
+import REACT_APP_GOOGLE_MAPS_API_KEY from './.env'
 
 function TracksList() {
-    const MAPS_API_KEY = process.env.REACT_APP_GOOGLE_MAPS_API_KEY
-    console.log(MAPS_API_KEY)
+    console.log(REACT_APP_GOOGLE_MAPS_API_KEY)
+    const MAPS_API_KEY = REACT_APP_GOOGLE_MAPS_API_KEY
     const { isLoaded } = useJsApiLoader({
-        id: 'google-map-script',
         googleMapsApiKey: MAPS_API_KEY,
     })
 
-    const center = {
-        lat: -3.745,
-        lng: -38.523
-    };
-
     return (
-        <div className="all-tracks-map">
+        // <div>
+        //     <p>
+
+        //     </p>
+        // </div>
+        <div style={{color: "white"}} className="all-tracks-map">
+            <br />
+            <br />
+            <br />
+            <br />
         {isLoaded ? (
             <p> YAY! </p>
          ) : (
